@@ -160,7 +160,7 @@ const list = [
 // 7-masala
 let findID = prompt("id kiriting ") - 0
 function findItem(id) {
-    const employee = list.find(emp => emp.id === id);
-    console.log(employee || `id: ${findID} bolgan foydalanuvchi topilmadi`);
+    const result = list.find(emp => emp.id === id);
+    console.log(result || `id: ${findID} bolgan foydalanuvchi topilmadi`);
 }  
 findItem(findID);
