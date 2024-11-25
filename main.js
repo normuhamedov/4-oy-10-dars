@@ -159,8 +159,8 @@ const list = [
 
 // 7-masala
 let findID = prompt("id kiriting ") - 0
-function findEmployeeById(id) {
+function findItem(id) {
     const employee = list.find(emp => emp.id === id);
     console.log(employee || `id: ${findID} bolgan foydalanuvchi topilmadi`);
 }  
-findEmployeeById(findID);
+findItem(findID);
